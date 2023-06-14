@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuvo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="pic/shuvo size_ logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Desiger & Developer</p>
+                <h1>Hi, I'm <span>Shuvo</span> ,<br> From Bangladesh.</h1>
+            </div>
+<!-- ------------------about------------------ -->
+
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="pic/Profile.jpg" alt="loading.......">
+                        </div>
+
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <p>orem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum perferendis facere optio. Deserunt eum cum corrupti saepe nemo excepturi, est libero sit voluptas dicta eligendi quis molestias, nihil ipsa sapiente beatae voluptates id. Ducimus delectus deleniti, provident saepe tenetur reprehenderit vitae eaque officiis eligendi modi? Omnis dolorum magni quisquam distinctio.</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p> 
+                                <!-- ---------------------- -->
+
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                    <li><span>Data Entry</span><br>Excel/Word Document</li>
+                                    <li><span>Marketing</span><br>Facebook/Youtube</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2021 - current</span><br>javascript</li>
+                                    <li><span>2019 - 2021</span><br>Team lead at P2C IT</li>
+                                    <li><span>2016- 2018</span><br>Internship at web Development</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2022</span><br>Web app Development Training at P2C IT</li>
+                                    <li><span>2020</span><br>Diploma Enggineering from KPI</li>
+                                    <li><span>2018</span><br>SSC from NTSC</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!-- 
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablinks.classList.remove("active-link");
+            }
+        
+        
+
+            for(tabcontent of tabcontents){
+                tabcontents.classlist.remove("active-tab");
+            }
+
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classList.add(active-tab);
+        }
+
+
+    </script> -->
+</body>
+</html>
